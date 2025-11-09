@@ -1,0 +1,7 @@
+project_id = "oinuakluxloempwagegu"
+
+[functions.recommend-card]
+verify_jwt = true
+
+[functions.assess-purchase]
+verify_jwt = true

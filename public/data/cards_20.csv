@@ -1,0 +1,21 @@
+account_id,issuer,product_name,mask,nickname,account_type,subtype,currency,credit_limit,current_balance,available_credit,utilization_pct,apr,annual_fee,rewards_summary,network,opened_date,status,statement_balance,minimum_due,next_payment_due_date
+c_001,Chase,Chase Sapphire Preferred,2824,Chase Sapphire Preferred,credit,credit card,USD,10000.00,2326.00,7674.00,23.26,20.24,95.00,dining:3x; travel:2x; other:1x,Visa,2023-04-17,active,2326.00,93.74,2025-12-02
+c_002,American Express,Amex Gold,2424,Amex Gold,credit,credit card,USD,2000.00,56.60,1943.40,2.83,22.99,250.00,dining:4x; supermarket:3x; other:1x,AmEx,2022-05-28,active,56.60,15.00,2025-12-02
+c_003,Capital One,Venture Rewards,4257,Venture Rewards Cap,credit,credit card,USD,20000.00,4188.00,15812.00,20.94,18.99,0.00,travel:2x; other:1x,Visa,2018-04-01,active,4188.00,192.98,2025-11-20
+c_004,Citi,Citi Double Cash,7924,Citi Double Cash,credit,credit card,USD,5000.00,1022.50,3977.50,20.45,24.49,0.00,cashback:2% overall,Mastercard,2021-01-30,active,1022.50,32.10,2025-11-26
+c_005,Discover,Discover It,6635,Discover It,credit,credit card,USD,2000.00,1386.40,613.60,69.32,16.24,0.00,rotating:5% rotating; other:1% other,Discover,2018-11-04,active,1386.40,66.09,2025-11-17
+c_006,Bank of America,BofA Cash Rewards,5803,BofA Cash Rewards Ban,credit,credit card,USD,15000.00,8227.50,6772.50,54.85,19.99,0.00,online_grocery:3%; gas:2%; other:1%,Visa,2024-01-29,active,8227.50,220.80,2025-11-24
+c_007,Wells Fargo,Wells Fargo Active Cash,2307,Wells Fargo Active Cash Wel,credit,credit card,USD,3000.00,1083.30,1916.70,36.11,19.99,0.00,cashback:2% all purchases,Visa,2019-10-09,active,1083.30,33.52,2025-11-26
+c_008,US Bank,Altitude Reserve,6820,Altitude Reserve,credit,credit card,USD,10000.00,6667.00,3333.00,66.67,17.99,400.00,travel:3x; dining:3x,Visa,2024-01-21,active,6667.00,167.57,2025-12-08
+c_009,Barclays,Barclays Arrival,5010,Barclays Arrival,credit,credit card,USD,20000.00,5130.00,14870.00,25.65,21.99,89.00,travel:2x,Visa,2018-08-11,active,5130.00,152.51,2025-11-16
+c_010,Synchrony,Synchrony Retail,4752,Synchrony Retail Syn,credit,credit card,USD,15000.00,5716.50,9283.50,38.11,25.49,0.00,store_rewards:varies,Visa,2024-02-11,active,5716.50,276.03,2025-12-07
+c_011,PNC,PNC Cash Rewards,6155,PNC Cash Rewards,credit,credit card,USD,25000.00,9397.50,15602.50,37.59,18.49,0.00,groceries:3x; other:1x,Mastercard,2019-09-17,active,9397.50,227.32,2025-12-08
+c_012,HSBC,HSBC Premier,9830,HSBC Premier,credit,credit card,USD,20000.00,17058.00,2942.00,85.29,19.49,150.00,travel:3x,Visa,2020-05-18,active,17058.00,851.53,2025-11-19
+c_013,NatWest,NatWest Reward,9348,NatWest Reward,credit,credit card,USD,2000.00,1636.00,364.00,81.80,22.00,0.00,groceries:2x,Mastercard,2023-02-21,active,1636.00,71.60,2025-11-28
+c_014,Santander,Santander 1|2|3,2040,Santander 1|2|3,credit,credit card,USD,25000.00,12567.50,12432.50,50.27,20.50,0.00,bills:3%; grocery:2%; other:1%,Visa,2018-08-26,active,12512.33,520.78,2025-12-06
+c_015,TD Bank,TD Cash Card,9797,TD Cash Card TD ,credit,credit card,USD,15000.00,1590.00,13410.00,10.60,19.75,0.00,grocery:3x; dining:2x,Mastercard,2019-12-25,active,1590.00,31.95,2025-12-08
+c_016,USAA,USAA Rewards,5315,USAA Rewards USA,credit,credit card,USD,5000.00,2411.50,2588.50,48.23,17.25,0.00,gas:3%; other:1x,Visa,2023-08-31,active,2227.20,87.24,2025-12-04
+c_017,Credit One,Credit One Cash,4258,Credit One Cash,credit,credit card,USD,5000.00,2562.00,2438.00,51.24,29.99,0.00,cashback:1% on all purchases,Visa,2018-11-28,active,2242.47,77.72,2025-11-18
+c_018,Credit Karma,Credit Karma Card,6947,Credit Karma Card Cre,credit,credit card,USD,10000.00,2275.00,7725.00,22.75,26.99,0.00,cashback:1% on all purchases,Mastercard,2022-02-26,active,1798.87,40.60,2025-11-30
+c_019,First Republic,First Republic Visa Infinite,2133,First Republic Visa Infinite Fir,credit,credit card,USD,5000.00,610.00,4390.00,12.20,15.99,450.00,travel:4x; dining:3x,Visa,2019-07-12,active,485.69,17.40,2025-12-04
+c_020,CIBC,CIBC Aventura,7932,CIBC Aventura CIB,credit,credit card,USD,7000.00,4741.10,2258.90,67.73,23.99,0.00,travel:2x,Mastercard,2020-05-19,active,4398.65,145.78,2025-12-01

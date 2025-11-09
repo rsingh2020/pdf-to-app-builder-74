@@ -1,0 +1,501 @@
+transaction_id,account_id,date,merchant_name,merchant_normalized,amount,currency,category,pending,transaction_type,iso_currency_code,merchant_id
+t_00001,c_015,2025-10-09,Best Buy #347,BEST BUY,39.93,USD,electronics,false,purchase,USD,merch_0621
+t_00002,c_019,2025-09-13,Starbucks #647,STARBUCKS,4.00,USD,coffee,false,purchase,USD,merch_8600
+t_00003,c_002,2025-08-16,Target,TARGET,118.61,USD,retail,false,purchase,USD,merch_7196
+t_00004,c_018,2025-10-06,Adidas,ADIDAS,104.77,USD,retail,false,purchase,USD,merch_7024
+t_00005,c_014,2025-09-21,Shell Oil Station #442,SHELL OIL STATION,48.34,USD,fuel,false,purchase,USD,merch_8266
+t_00006,c_002,2025-05-20,Steam,STEAM,6.81,USD,digital,false,purchase,USD,merch_3309
+t_00007,c_011,2025-10-12,Best Buy #550,BEST BUY,546.61,USD,electronics,false,purchase,USD,merch_0621
+t_00008,c_009,2025-07-13,Best Buy,BEST BUY,104.33,USD,electronics,false,purchase,USD,merch_0621
+t_00009,c_018,2025-10-14,Amazon.com,AMAZON.COM,655.60,USD,online_retail,true,purchase,USD,merch_3850
+t_00010,c_003,2025-09-09,Uber,UBER,41.10,USD,ride_share,false,purchase,USD,merch_9196
+t_00011,c_002,2025-09-27,Costco Gas #400,COSTCO GAS,41.22,USD,fuel,false,purchase,USD,merch_0980
+t_00012,c_015,2025-08-27,T-Mobile,T-MOBILE,366.60,USD,utilities,false,purchase,USD,merch_3547
+t_00013,c_016,2025-09-30,Delta Air Lines #992,DELTA AIR LINES,117.26,USD,travel,false,purchase,USD,merch_1192
+t_00014,c_002,2025-08-20,Amazon.com #489,AMAZON.COM,610.88,USD,online_retail,false,purchase,USD,merch_3850
+t_00015,c_006,2025-10-25,Grubhub #191,GRUBHUB,10.14,USD,food_delivery,false,purchase,USD,merch_6470
+t_00016,c_008,2025-07-28,Chevron,CHEVRON,65.57,USD,fuel,false,purchase,USD,merch_7341
+t_00017,c_002,2025-06-03,Costco Wholesale,COSTCO WHOLESALE,237.63,USD,groceries,false,purchase,USD,merch_1368
+t_00018,c_009,2025-09-17,Costco Photo,COSTCO PHOTO,103.09,USD,retail,false,purchase,USD,merch_6856
+t_00019,c_010,2025-07-14,Trader Joe's,TRADER JOE'S,374.94,USD,groceries,true,purchase,USD,merch_3050
+t_00020,c_020,2025-06-17,Shell Oil Station #219,SHELL OIL STATION,60.47,USD,fuel,false,purchase,USD,merch_8266
+t_00021,c_012,2025-10-22,Best Buy,BEST BUY,201.93,USD,electronics,false,purchase,USD,merch_0621
+t_00022,c_010,2025-06-05,Steam,STEAM,40.40,USD,digital,false,purchase,USD,merch_3309
+t_00023,c_004,2025-10-05,Apple Store #110,APPLE STORE,894.76,USD,electronics,false,purchase,USD,merch_3164
+t_00024,c_010,2025-06-07,United Airlines,UNITED AIRLINES,284.14,USD,travel,false,purchase,USD,merch_2270
+t_00025,c_009,2025-07-02,DoorDash #930,DOORDASH,68.46,USD,food_delivery,false,purchase,USD,merch_4268
+t_00026,c_014,2025-08-30,Walmart #790,WALMART,61.02,USD,retail,false,purchase,USD,merch_6154
+t_00027,c_006,2025-07-18,Nike,NIKE,228.75,USD,retail,false,purchase,USD,merch_2678
+t_00028,c_005,2025-06-22,Walmart,WALMART,237.18,USD,retail,false,purchase,USD,merch_6154
+t_00029,c_005,2025-10-29,Hulu,HULU,9.99,USD,subscriptions,false,subscription,USD,merch_9712
+t_00030,c_007,2025-05-18,Best Buy,BEST BUY,434.11,USD,electronics,false,purchase,USD,merch_0621
+t_00031,c_014,2025-06-03,Burger King,BURGER KING,22.76,USD,fast_food,false,purchase,USD,merch_3290
+t_00032,c_006,2025-07-26,Whole Foods Market #947,WHOLE FOODS MARKET,139.55,USD,groceries,false,purchase,USD,merch_7275
+t_00033,c_008,2025-09-01,Uber,UBER,13.11,USD,ride_share,false,purchase,USD,merch_9196
+t_00034,c_016,2025-09-13,Delta Air Lines,DELTA AIR LINES,579.35,USD,travel,false,purchase,USD,merch_1192
+t_00035,c_008,2025-09-12,Whole Foods Market,WHOLE FOODS MARKET,165.40,USD,groceries,false,purchase,USD,merch_7275
+t_00036,c_003,2025-08-29,Sephora,SEPHORA,202.84,USD,personal_care,false,purchase,USD,merch_4100
+t_00037,c_018,2025-08-16,Whole Foods Market #994,WHOLE FOODS MARKET,111.87,USD,groceries,false,purchase,USD,merch_7275
+t_00038,c_009,2025-10-30,Shell Oil Station,SHELL OIL STATION,47.65,USD,fuel,false,purchase,USD,merch_8266
+t_00039,c_014,2025-06-06,Grubhub #922,GRUBHUB,48.24,USD,food_delivery,false,purchase,USD,merch_6470
+t_00040,c_014,2025-11-08,Stripe Payment,STRIPE PAYMENT,271.53,USD,services,false,purchase,USD,merch_3089
+t_00041,c_007,2025-08-07,T-Mobile #681,T-MOBILE,460.78,USD,utilities,false,purchase,USD,merch_3547
+t_00042,c_004,2025-08-24,Grubhub,GRUBHUB,35.63,USD,food_delivery,false,purchase,USD,merch_6470
+t_00043,c_010,2025-06-20,McDonald's #681,MCDONALD'S,75.53,USD,fast_food,false,purchase,USD,merch_8353
+t_00044,c_006,2025-06-04,Adidas,ADIDAS,223.70,USD,retail,true,purchase,USD,merch_7024
+t_00045,c_010,2025-09-16,T-Mobile,T-MOBILE,305.30,USD,utilities,false,purchase,USD,merch_3547
+t_00046,c_015,2025-07-18,United Airlines,UNITED AIRLINES,962.80,USD,travel,false,purchase,USD,merch_2270
+t_00047,c_006,2025-05-24,Costco Wholesale #680,COSTCO WHOLESALE,256.85,USD,groceries,false,purchase,USD,merch_1368
+t_00048,c_008,2025-05-20,Hulu #204,HULU,12.99,USD,subscriptions,true,subscription,USD,merch_9712
+t_00049,c_008,2025-07-10,Google Play,GOOGLE PLAY,5.30,USD,digital,false,purchase,USD,merch_7969
+t_00050,c_019,2025-09-20,Costco Gas,COSTCO GAS,39.52,USD,fuel,false,purchase,USD,merch_0980
+t_00051,c_001,2025-10-12,T-Mobile #824,T-MOBILE,479.19,USD,utilities,false,purchase,USD,merch_3547
+t_00052,c_002,2025-06-19,Best Buy,BEST BUY,158.81,USD,electronics,false,purchase,USD,merch_0621
+t_00053,c_015,2025-05-22,Stripe Payment,STRIPE PAYMENT,299.75,USD,services,false,purchase,USD,merch_3089
+t_00054,c_015,2025-06-05,Grubhub,GRUBHUB,73.01,USD,food_delivery,false,purchase,USD,merch_6470
+t_00055,c_006,2025-07-10,Airbnb #254,AIRBNB,1015.84,USD,travel,false,purchase,USD,merch_4884
+t_00056,c_017,2025-07-07,Microsoft Xbox #451,MICROSOFT XBOX,5.57,USD,digital,false,purchase,USD,merch_4990
+t_00057,c_009,2025-08-15,Trader Joe's,TRADER JOE'S,41.43,USD,groceries,false,purchase,USD,merch_3050
+t_00058,c_013,2025-05-15,Burger King,BURGER KING,9.82,USD,fast_food,false,purchase,USD,merch_3290
+t_00059,c_018,2025-07-12,Verizon Wireless #853,VERIZON WIRELESS,212.97,USD,utilities,false,purchase,USD,merch_2466
+t_00060,c_019,2025-05-14,Whole Foods Market,WHOLE FOODS MARKET,308.58,USD,groceries,false,purchase,USD,merch_7275
+t_00061,c_001,2025-08-10,Hulu,HULU,19.99,USD,subscriptions,false,subscription,USD,merch_9712
+t_00062,c_018,2025-06-07,Southwest Airlines,SOUTHWEST AIRLINES,363.88,USD,travel,false,purchase,USD,merch_1866
+t_00063,c_013,2025-08-14,Costco Photo,COSTCO PHOTO,167.68,USD,retail,false,purchase,USD,merch_6856
+t_00064,c_015,2025-10-07,Google Play,GOOGLE PLAY,54.51,USD,digital,false,purchase,USD,merch_7969
+t_00065,c_001,2025-10-18,Steam,STEAM,52.14,USD,digital,false,purchase,USD,merch_3309
+t_00066,c_009,2025-08-03,Trader Joe's #335,TRADER JOE'S,141.63,USD,groceries,false,purchase,USD,merch_3050
+t_00067,c_009,2025-07-24,Apple Store,APPLE STORE,572.31,USD,electronics,false,purchase,USD,merch_3164
+t_00068,c_002,2025-08-11,Southwest Airlines,SOUTHWEST AIRLINES,948.42,USD,travel,false,purchase,USD,merch_1866
+t_00069,c_001,2025-09-06,Delta Air Lines,DELTA AIR LINES,764.54,USD,travel,false,purchase,USD,merch_1192
+t_00070,c_016,2025-05-21,Chevron,CHEVRON,37.44,USD,fuel,false,purchase,USD,merch_7341
+t_00071,c_012,2025-09-27,Expedia,EXPEDIA,910.11,USD,travel,false,purchase,USD,merch_2761
+t_00072,c_006,2025-08-21,Shell Oil Station,SHELL OIL STATION,94.31,USD,fuel,false,purchase,USD,merch_8266
+t_00073,c_013,2025-07-30,Delta Air Lines #708,DELTA AIR LINES,1005.16,USD,travel,false,purchase,USD,merch_1192
+t_00074,c_010,2025-05-17,Expedia,EXPEDIA,965.66,USD,travel,false,purchase,USD,merch_2761
+t_00075,c_002,2025-08-12,Etsy,ETSY,454.13,USD,online_retail,false,purchase,USD,merch_4358
+t_00076,c_011,2025-11-05,Verizon Wireless,VERIZON WIRELESS,57.24,USD,utilities,false,purchase,USD,merch_2466
+t_00077,c_015,2025-09-30,T-Mobile #535,T-MOBILE,482.91,USD,utilities,false,purchase,USD,merch_3547
+t_00078,c_018,2025-07-08,Hotels.com,HOTELS.COM,890.68,USD,travel,false,purchase,USD,merch_6972
+t_00079,c_008,2025-10-17,Netflix,NETFLIX,12.99,USD,subscriptions,false,subscription,USD,merch_9684
+t_00080,c_019,2025-06-05,Costco Photo,COSTCO PHOTO,21.19,USD,retail,false,purchase,USD,merch_6856
+t_00081,c_006,2025-07-07,United Airlines,UNITED AIRLINES,347.11,USD,travel,false,purchase,USD,merch_2270
+t_00082,c_020,2025-05-13,Netflix,NETFLIX,29.99,USD,subscriptions,false,subscription,USD,merch_9684
+t_00083,c_003,2025-09-08,Verizon Wireless,VERIZON WIRELESS,380.29,USD,utilities,false,purchase,USD,merch_2466
+t_00084,c_016,2025-07-17,Whole Foods Market #227,WHOLE FOODS MARKET,167.72,USD,groceries,false,purchase,USD,merch_7275
+t_00085,c_019,2025-08-06,Netflix Gift,NETFLIX GIFT,15.49,USD,subscriptions,false,subscription,USD,merch_9637
+t_00086,c_018,2025-08-16,Sephora,SEPHORA,139.10,USD,personal_care,false,purchase,USD,merch_4100
+t_00087,c_004,2025-09-20,Trader Joe's #549,TRADER JOE'S,380.84,USD,groceries,false,purchase,USD,merch_3050
+t_00088,c_007,2025-09-14,Netflix Gift #604,NETFLIX GIFT,29.99,USD,subscriptions,false,subscription,USD,merch_9637
+t_00089,c_004,2025-09-20,Spotify #184,SPOTIFY,15.49,USD,subscriptions,true,subscription,USD,merch_4481
+t_00090,c_018,2025-10-07,Netflix #56,NETFLIX,29.99,USD,subscriptions,false,subscription,USD,merch_9684
+t_00091,c_005,2025-05-29,DoorDash #13,DOORDASH,48.05,USD,food_delivery,false,purchase,USD,merch_4268
+t_00092,c_015,2025-08-13,Lyft,LYFT,23.94,USD,ride_share,false,purchase,USD,merch_3632
+t_00093,c_004,2025-10-23,AT&T Wireless,AT&T WIRELESS,290.63,USD,utilities,false,purchase,USD,merch_5789
+t_00094,c_005,2025-10-01,Adidas,ADIDAS,43.22,USD,retail,false,purchase,USD,merch_7024
+t_00095,c_018,2025-07-25,Expedia,EXPEDIA,761.18,USD,travel,false,purchase,USD,merch_2761
+t_00096,c_013,2025-07-16,Airbnb #603,AIRBNB,1188.54,USD,travel,false,purchase,USD,merch_4884
+t_00097,c_020,2025-10-24,Google Play,GOOGLE PLAY,6.85,USD,digital,false,purchase,USD,merch_7969
+t_00098,c_007,2025-09-02,Costco Photo #246,COSTCO PHOTO,77.79,USD,retail,false,purchase,USD,merch_6856
+t_00099,c_001,2025-07-27,Airbnb,AIRBNB,590.40,USD,travel,true,purchase,USD,merch_4884
+t_00100,c_010,2025-05-12,Spotify,SPOTIFY,19.99,USD,subscriptions,false,subscription,USD,merch_4481
+t_00101,c_008,2025-09-02,Microsoft Xbox,MICROSOFT XBOX,48.43,USD,digital,false,purchase,USD,merch_4990
+t_00102,c_004,2025-06-22,Southwest Airlines,SOUTHWEST AIRLINES,1094.67,USD,travel,false,purchase,USD,merch_1866
+t_00103,c_003,2025-10-24,Uber,UBER,49.63,USD,ride_share,false,purchase,USD,merch_9196
+t_00104,c_010,2025-07-19,Chevron,CHEVRON,44.33,USD,fuel,false,purchase,USD,merch_7341
+t_00105,c_009,2025-07-03,Etsy,ETSY,110.32,USD,online_retail,true,purchase,USD,merch_4358
+t_00106,c_014,2025-08-18,Expedia #94,EXPEDIA,313.26,USD,travel,false,purchase,USD,merch_2761
+t_00107,c_019,2025-06-11,Whole Foods Market,WHOLE FOODS MARKET,272.19,USD,groceries,false,purchase,USD,merch_7275
+t_00108,c_002,2025-09-25,Netflix Gift,NETFLIX GIFT,19.99,USD,subscriptions,false,subscription,USD,merch_9637
+t_00109,c_006,2025-06-12,T-Mobile,T-MOBILE,248.40,USD,utilities,false,purchase,USD,merch_3547
+t_00110,c_012,2025-07-27,Safeway,SAFEWAY,50.79,USD,groceries,false,purchase,USD,merch_5547
+t_00111,c_014,2025-05-15,DoorDash #968,DOORDASH,35.03,USD,food_delivery,false,purchase,USD,merch_4268
+t_00112,c_002,2025-07-15,Costco Wholesale,COSTCO WHOLESALE,136.08,USD,groceries,false,purchase,USD,merch_1368
+t_00113,c_013,2025-06-30,Starbucks,STARBUCKS,12.22,USD,coffee,false,purchase,USD,merch_8600
+t_00114,c_007,2025-06-29,Home Depot,HOME DEPOT,605.71,USD,home_improvement,false,purchase,USD,merch_6699
+t_00115,c_002,2025-09-17,Netflix,NETFLIX,15.49,USD,subscriptions,false,subscription,USD,merch_9684
+t_00116,c_016,2025-10-08,Whole Foods Market,WHOLE FOODS MARKET,247.46,USD,groceries,false,purchase,USD,merch_7275
+t_00117,c_006,2025-08-21,Nike #418,NIKE,46.35,USD,retail,false,purchase,USD,merch_2678
+t_00118,c_004,2025-07-13,Chevron,CHEVRON,32.32,USD,fuel,false,purchase,USD,merch_7341
+t_00119,c_010,2025-07-01,Netflix,NETFLIX,19.99,USD,subscriptions,false,subscription,USD,merch_9684
+t_00120,c_008,2025-07-15,Nike #196,NIKE,369.53,USD,retail,false,purchase,USD,merch_2678
+t_00121,c_005,2025-10-22,Netflix,NETFLIX,19.99,USD,subscriptions,false,subscription,USD,merch_9684
+t_00122,c_017,2025-09-01,Starbucks #306,STARBUCKS,17.24,USD,coffee,false,purchase,USD,merch_8600
+t_00123,c_016,2025-10-01,Airbnb,AIRBNB,446.89,USD,travel,false,purchase,USD,merch_4884
+t_00124,c_018,2025-08-04,Hotels.com,HOTELS.COM,1050.04,USD,travel,false,purchase,USD,merch_6972
+t_00125,c_008,2025-06-15,Costco Gas #795,COSTCO GAS,52.86,USD,fuel,false,purchase,USD,merch_0980
+t_00126,c_016,2025-05-12,Costco Gas,COSTCO GAS,73.10,USD,fuel,false,purchase,USD,merch_0980
+t_00127,c_005,2025-07-05,Walmart #989,WALMART,240.17,USD,retail,false,purchase,USD,merch_6154
+t_00128,c_015,2025-10-14,Stripe Payment,STRIPE PAYMENT,12.60,USD,services,false,purchase,USD,merch_3089
+t_00129,c_005,2025-10-20,Netflix Gift,NETFLIX GIFT,15.49,USD,subscriptions,false,subscription,USD,merch_9637
+t_00130,c_013,2025-05-26,Costco Wholesale,COSTCO WHOLESALE,342.41,USD,groceries,false,purchase,USD,merch_1368
+t_00131,c_013,2025-08-19,Microsoft Xbox,MICROSOFT XBOX,45.80,USD,digital,false,purchase,USD,merch_4990
+t_00132,c_002,2025-06-03,Target #701,TARGET,369.16,USD,retail,false,purchase,USD,merch_7196
+t_00133,c_003,2025-07-20,Shell Oil Station,SHELL OIL STATION,76.31,USD,fuel,false,purchase,USD,merch_8266
+t_00134,c_006,2025-05-15,Hulu,HULU,9.99,USD,subscriptions,false,subscription,USD,merch_9712
+t_00135,c_002,2025-08-25,Sephora,SEPHORA,77.06,USD,personal_care,false,purchase,USD,merch_4100
+t_00136,c_019,2025-05-18,Lyft #81,LYFT,50.71,USD,ride_share,false,purchase,USD,merch_3632
+t_00137,c_008,2025-07-04,Booking.com #473,BOOKING.COM,783.59,USD,travel,false,purchase,USD,merch_8428
+t_00138,c_001,2025-07-12,Spotify,SPOTIFY,12.99,USD,subscriptions,false,subscription,USD,merch_4481
+t_00139,c_012,2025-06-11,Hulu,HULU,19.99,USD,subscriptions,false,subscription,USD,merch_9712
+t_00140,c_015,2025-08-23,Delta Air Lines,DELTA AIR LINES,1031.34,USD,travel,false,purchase,USD,merch_1192
+t_00141,c_013,2025-06-15,Sephora,SEPHORA,496.38,USD,personal_care,false,purchase,USD,merch_4100
+t_00142,c_013,2025-08-30,Starbucks,STARBUCKS,14.66,USD,coffee,false,purchase,USD,merch_8600
+t_00143,c_002,2025-06-06,DoorDash,DOORDASH,72.72,USD,food_delivery,false,purchase,USD,merch_4268
+t_00144,c_008,2025-06-06,Sephora #195,SEPHORA,312.34,USD,personal_care,false,purchase,USD,merch_4100
+t_00145,c_005,2025-06-01,Shell Oil Station,SHELL OIL STATION,71.71,USD,fuel,false,purchase,USD,merch_8266
+t_00146,c_015,2025-10-31,Booking.com,BOOKING.COM,201.12,USD,travel,false,purchase,USD,merch_8428
+t_00147,c_011,2025-07-25,Lyft #806,LYFT,45.46,USD,ride_share,false,purchase,USD,merch_3632
+t_00148,c_017,2025-07-03,Netflix,NETFLIX,15.49,USD,subscriptions,false,subscription,USD,merch_9684
+t_00149,c_016,2025-08-25,Safeway,SAFEWAY,192.65,USD,groceries,false,purchase,USD,merch_5547
+t_00150,c_008,2025-05-19,AT&T Wireless,AT&T WIRELESS,403.27,USD,utilities,false,purchase,USD,merch_5789
+t_00151,c_013,2025-11-05,Apple Store,APPLE STORE,553.92,USD,electronics,false,purchase,USD,merch_3164
+t_00152,c_009,2025-06-12,Costco Gas,COSTCO GAS,95.22,USD,fuel,false,purchase,USD,merch_0980
+t_00153,c_008,2025-07-11,Whole Foods Market,WHOLE FOODS MARKET,377.84,USD,groceries,false,purchase,USD,merch_7275
+t_00154,c_020,2025-09-13,Steam #844,STEAM,28.39,USD,digital,false,purchase,USD,merch_3309
+t_00155,c_014,2025-10-10,McDonald's #39,MCDONALD'S,27.83,USD,fast_food,false,purchase,USD,merch_8353
+t_00156,c_004,2025-09-09,Etsy #465,ETSY,454.65,USD,online_retail,false,purchase,USD,merch_4358
+t_00157,c_018,2025-07-24,Booking.com,BOOKING.COM,227.70,USD,travel,false,purchase,USD,merch_8428
+t_00158,c_004,2025-07-06,Google Play,GOOGLE PLAY,57.14,USD,digital,true,purchase,USD,merch_7969
+t_00159,c_012,2025-09-14,Airbnb,AIRBNB,321.53,USD,travel,false,purchase,USD,merch_4884
+t_00160,c_012,2025-06-22,Steam,STEAM,24.49,USD,digital,false,purchase,USD,merch_3309
+t_00161,c_004,2025-07-15,Costco Wholesale,COSTCO WHOLESALE,260.26,USD,groceries,false,purchase,USD,merch_1368
+t_00162,c_001,2025-10-27,Safeway #129,SAFEWAY,316.92,USD,groceries,false,purchase,USD,merch_5547
+t_00163,c_018,2025-09-16,Booking.com #891,BOOKING.COM,317.95,USD,travel,false,purchase,USD,merch_8428
+t_00164,c_020,2025-11-08,Netflix,NETFLIX,12.99,USD,subscriptions,false,subscription,USD,merch_9684
+t_00165,c_018,2025-09-05,Lyft #888,LYFT,6.93,USD,ride_share,true,purchase,USD,merch_3632
+t_00166,c_008,2025-06-11,Trader Joe's #272,TRADER JOE'S,30.44,USD,groceries,false,purchase,USD,merch_3050
+t_00167,c_017,2025-10-10,Target,TARGET,313.43,USD,retail,false,purchase,USD,merch_7196
+t_00168,c_004,2025-07-16,Grubhub #630,GRUBHUB,8.25,USD,food_delivery,false,purchase,USD,merch_6470
+t_00169,c_017,2025-08-23,Hotels.com,HOTELS.COM,85.82,USD,travel,false,purchase,USD,merch_6972
+t_00170,c_013,2025-07-22,Shell Oil Station,SHELL OIL STATION,92.78,USD,fuel,false,purchase,USD,merch_8266
+t_00171,c_003,2025-08-18,Expedia #130,EXPEDIA,366.27,USD,travel,false,purchase,USD,merch_2761
+t_00172,c_018,2025-08-17,Costco Gas,COSTCO GAS,62.44,USD,fuel,false,purchase,USD,merch_0980
+t_00173,c_020,2025-07-21,Shell Oil Station,SHELL OIL STATION,29.15,USD,fuel,false,purchase,USD,merch_8266
+t_00174,c_018,2025-09-14,T-Mobile,T-MOBILE,118.10,USD,utilities,false,purchase,USD,merch_3547
+t_00175,c_015,2025-07-29,Verizon Wireless,VERIZON WIRELESS,159.71,USD,utilities,false,purchase,USD,merch_2466
+t_00176,c_009,2025-08-05,Burger King,BURGER KING,40.57,USD,fast_food,false,purchase,USD,merch_3290
+t_00177,c_003,2025-10-16,T-Mobile #757,T-MOBILE,189.46,USD,utilities,false,purchase,USD,merch_3547
+t_00178,c_002,2025-06-11,Nike,NIKE,271.31,USD,retail,false,purchase,USD,merch_2678
+t_00179,c_014,2025-10-26,Spotify,SPOTIFY,15.49,USD,subscriptions,false,subscription,USD,merch_4481
+t_00180,c_017,2025-09-15,Burger King,BURGER KING,21.82,USD,fast_food,false,purchase,USD,merch_3290
+t_00181,c_018,2025-08-06,Chevron,CHEVRON,65.93,USD,fuel,false,purchase,USD,merch_7341
+t_00182,c_018,2025-06-02,Google Play,GOOGLE PLAY,33.85,USD,digital,false,purchase,USD,merch_7969
+t_00183,c_009,2025-11-01,Lyft #781,LYFT,28.17,USD,ride_share,false,purchase,USD,merch_3632
+t_00184,c_001,2025-09-23,Burger King,BURGER KING,35.06,USD,fast_food,false,purchase,USD,merch_3290
+t_00185,c_001,2025-10-16,Stripe Payment #430,STRIPE PAYMENT,229.55,USD,services,false,purchase,USD,merch_3089
+t_00186,c_010,2025-08-17,Adidas,ADIDAS,354.50,USD,retail,false,purchase,USD,merch_7024
+t_00187,c_020,2025-10-27,Costco Wholesale #678,COSTCO WHOLESALE,175.37,USD,groceries,false,purchase,USD,merch_1368
+t_00188,c_014,2025-08-31,United Airlines,UNITED AIRLINES,180.89,USD,travel,false,purchase,USD,merch_2270
+t_00189,c_010,2025-05-19,Booking.com,BOOKING.COM,817.20,USD,travel,true,purchase,USD,merch_8428
+t_00190,c_013,2025-06-08,Amazon.com #309,AMAZON.COM,1135.21,USD,online_retail,false,purchase,USD,merch_3850
+t_00191,c_009,2025-08-26,Trader Joe's #510,TRADER JOE'S,301.34,USD,groceries,false,purchase,USD,merch_3050
+t_00192,c_013,2025-06-25,Southwest Airlines,SOUTHWEST AIRLINES,1008.36,USD,travel,false,purchase,USD,merch_1866
+t_00193,c_003,2025-07-30,Walmart,WALMART,189.30,USD,retail,false,purchase,USD,merch_6154
+t_00194,c_011,2025-06-14,T-Mobile,T-MOBILE,356.20,USD,utilities,false,purchase,USD,merch_3547
+t_00195,c_004,2025-07-28,Whole Foods Market,WHOLE FOODS MARKET,77.03,USD,groceries,false,purchase,USD,merch_7275
+t_00196,c_015,2025-05-16,Home Depot #865,HOME DEPOT,140.45,USD,home_improvement,false,purchase,USD,merch_6699
+t_00197,c_013,2025-06-27,Costco Wholesale,COSTCO WHOLESALE,131.01,USD,groceries,false,purchase,USD,merch_1368
+t_00198,c_011,2025-09-26,Target,TARGET,54.47,USD,retail,false,purchase,USD,merch_7196
+t_00199,c_012,2025-08-11,Steam,STEAM,14.94,USD,digital,false,purchase,USD,merch_3309
+t_00200,c_007,2025-09-25,Expedia #778,EXPEDIA,803.84,USD,travel,false,purchase,USD,merch_2761
+t_00201,c_016,2025-07-13,Adidas,ADIDAS,185.07,USD,retail,false,purchase,USD,merch_7024
+t_00202,c_019,2025-05-28,Microsoft Xbox,MICROSOFT XBOX,20.07,USD,digital,false,purchase,USD,merch_4990
+t_00203,c_011,2025-10-01,Airbnb #453,AIRBNB,776.09,USD,travel,false,purchase,USD,merch_4884
+t_00204,c_019,2025-10-25,Sephora,SEPHORA,158.65,USD,personal_care,false,purchase,USD,merch_4100
+t_00205,c_002,2025-08-06,Spotify #885,SPOTIFY,9.99,USD,subscriptions,false,subscription,USD,merch_4481
+t_00206,c_017,2025-08-02,Hotels.com,HOTELS.COM,1147.37,USD,travel,false,purchase,USD,merch_6972
+t_00207,c_002,2025-07-16,Adidas,ADIDAS,135.40,USD,retail,false,purchase,USD,merch_7024
+t_00208,c_005,2025-10-24,Airbnb #921,AIRBNB,1012.98,USD,travel,false,purchase,USD,merch_4884
+t_00209,c_003,2025-07-02,Steam #254,STEAM,42.75,USD,digital,false,purchase,USD,merch_3309
+t_00210,c_017,2025-06-28,Google Play #382,GOOGLE PLAY,55.16,USD,digital,false,purchase,USD,merch_7969
+t_00211,c_011,2025-05-19,Expedia #647,EXPEDIA,794.40,USD,travel,false,purchase,USD,merch_2761
+t_00212,c_004,2025-06-19,Costco Gas #742,COSTCO GAS,88.13,USD,fuel,false,purchase,USD,merch_0980
+t_00213,c_020,2025-10-01,Safeway #680,SAFEWAY,65.16,USD,groceries,false,purchase,USD,merch_5547
+t_00214,c_013,2025-10-06,Expedia,EXPEDIA,147.43,USD,travel,false,purchase,USD,merch_2761
+t_00215,c_011,2025-10-07,Costco Photo,COSTCO PHOTO,379.37,USD,retail,false,purchase,USD,merch_6856
+t_00216,c_017,2025-10-16,Steam,STEAM,31.00,USD,digital,true,purchase,USD,merch_3309
+t_00217,c_010,2025-09-23,United Airlines,UNITED AIRLINES,931.08,USD,travel,false,purchase,USD,merch_2270
+t_00218,c_005,2025-09-30,Target #808,TARGET,49.44,USD,retail,false,purchase,USD,merch_7196
+t_00219,c_017,2025-10-30,Costco Photo,COSTCO PHOTO,308.86,USD,retail,false,purchase,USD,merch_6856
+t_00220,c_013,2025-09-30,Uber #710,UBER,62.83,USD,ride_share,false,purchase,USD,merch_9196
+t_00221,c_006,2025-07-19,Walmart,WALMART,273.78,USD,retail,false,purchase,USD,merch_6154
+t_00222,c_015,2025-06-05,Spotify,SPOTIFY,19.99,USD,subscriptions,false,subscription,USD,merch_4481
+t_00223,c_008,2025-08-21,Netflix Gift,NETFLIX GIFT,12.99,USD,subscriptions,false,subscription,USD,merch_9637
+t_00224,c_019,2025-07-19,Hotels.com,HOTELS.COM,944.84,USD,travel,false,purchase,USD,merch_6972
+t_00225,c_014,2025-09-28,Delta Air Lines,DELTA AIR LINES,209.16,USD,travel,false,purchase,USD,merch_1192
+t_00226,c_016,2025-08-05,Nike,NIKE,287.45,USD,retail,false,purchase,USD,merch_2678
+t_00227,c_004,2025-08-28,Costco Wholesale,COSTCO WHOLESALE,116.39,USD,groceries,false,purchase,USD,merch_1368
+t_00228,c_005,2025-07-20,Costco Wholesale,COSTCO WHOLESALE,96.59,USD,groceries,false,purchase,USD,merch_1368
+t_00229,c_012,2025-11-02,Verizon Wireless #515,VERIZON WIRELESS,190.11,USD,utilities,false,purchase,USD,merch_2466
+t_00230,c_003,2025-08-05,Southwest Airlines #954,SOUTHWEST AIRLINES,163.95,USD,travel,false,purchase,USD,merch_1866
+t_00231,c_011,2025-10-02,McDonald's #940,MCDONALD'S,67.23,USD,fast_food,false,purchase,USD,merch_8353
+t_00232,c_005,2025-05-12,Netflix Gift,NETFLIX GIFT,9.99,USD,subscriptions,false,subscription,USD,merch_9637
+t_00233,c_001,2025-09-04,United Airlines,UNITED AIRLINES,681.12,USD,travel,false,purchase,USD,merch_2270
+t_00234,c_017,2025-07-23,Chevron,CHEVRON,39.01,USD,fuel,false,purchase,USD,merch_7341
+t_00235,c_008,2025-07-24,Microsoft Xbox,MICROSOFT XBOX,27.97,USD,digital,false,purchase,USD,merch_4990
+t_00236,c_016,2025-06-09,Etsy #528,ETSY,696.43,USD,online_retail,false,purchase,USD,merch_4358
+t_00237,c_010,2025-07-22,Starbucks,STARBUCKS,7.09,USD,coffee,false,purchase,USD,merch_8600
+t_00238,c_003,2025-06-27,Home Depot #539,HOME DEPOT,659.74,USD,home_improvement,false,purchase,USD,merch_6699
+t_00239,c_017,2025-06-20,Whole Foods Market,WHOLE FOODS MARKET,193.35,USD,groceries,false,purchase,USD,merch_7275
+t_00240,c_012,2025-09-05,Whole Foods Market,WHOLE FOODS MARKET,36.35,USD,groceries,false,purchase,USD,merch_7275
+t_00241,c_004,2025-06-13,Safeway #361,SAFEWAY,222.95,USD,groceries,false,purchase,USD,merch_5547
+t_00242,c_006,2025-05-17,Hotels.com,HOTELS.COM,600.31,USD,travel,false,purchase,USD,merch_6972
+t_00243,c_005,2025-10-23,Hotels.com #207,HOTELS.COM,100.38,USD,travel,false,purchase,USD,merch_6972
+t_00244,c_002,2025-08-20,Hulu,HULU,29.99,USD,subscriptions,false,subscription,USD,merch_9712
+t_00245,c_002,2025-05-27,Delta Air Lines #883,DELTA AIR LINES,947.97,USD,travel,false,purchase,USD,merch_1192
+t_00246,c_011,2025-08-31,Chevron,CHEVRON,54.96,USD,fuel,false,purchase,USD,merch_7341
+t_00247,c_015,2025-08-02,Safeway,SAFEWAY,203.52,USD,groceries,false,purchase,USD,merch_5547
+t_00248,c_017,2025-09-01,Costco Wholesale,COSTCO WHOLESALE,40.78,USD,groceries,false,purchase,USD,merch_1368
+t_00249,c_006,2025-06-22,Spotify,SPOTIFY,9.99,USD,subscriptions,false,subscription,USD,merch_4481
+t_00250,c_010,2025-08-22,Airbnb,AIRBNB,540.03,USD,travel,false,purchase,USD,merch_4884
+t_00251,c_012,2025-07-17,Walmart,WALMART,365.53,USD,retail,false,purchase,USD,merch_6154
+t_00252,c_014,2025-08-30,Microsoft Xbox,MICROSOFT XBOX,56.93,USD,digital,false,purchase,USD,merch_4990
+t_00253,c_013,2025-08-07,Grubhub,GRUBHUB,55.96,USD,food_delivery,false,purchase,USD,merch_6470
+t_00254,c_005,2025-06-06,Airbnb #69,AIRBNB,321.39,USD,travel,false,purchase,USD,merch_4884
+t_00255,c_012,2025-08-02,Adidas #158,ADIDAS,274.83,USD,retail,false,purchase,USD,merch_7024
+t_00256,c_012,2025-07-18,Target,TARGET,216.49,USD,retail,false,purchase,USD,merch_7196
+t_00257,c_009,2025-09-06,Chevron #191,CHEVRON,59.92,USD,fuel,false,purchase,USD,merch_7341
+t_00258,c_018,2025-10-09,Apple Store,APPLE STORE,849.28,USD,electronics,false,purchase,USD,merch_3164
+t_00259,c_020,2025-08-27,DoorDash #139,DOORDASH,68.96,USD,food_delivery,false,purchase,USD,merch_4268
+t_00260,c_015,2025-10-17,Trader Joe's,TRADER JOE'S,286.72,USD,groceries,false,purchase,USD,merch_3050
+t_00261,c_010,2025-08-24,Uber,UBER,74.55,USD,ride_share,false,purchase,USD,merch_9196
+t_00262,c_012,2025-07-01,Southwest Airlines #206,SOUTHWEST AIRLINES,960.88,USD,travel,false,purchase,USD,merch_1866
+t_00263,c_016,2025-11-02,Home Depot,HOME DEPOT,452.16,USD,home_improvement,false,purchase,USD,merch_6699
+t_00264,c_018,2025-10-06,Google Play,GOOGLE PLAY,4.88,USD,digital,false,purchase,USD,merch_7969
+t_00265,c_016,2025-06-27,Verizon Wireless,VERIZON WIRELESS,412.55,USD,utilities,false,purchase,USD,merch_2466
+t_00266,c_011,2025-05-28,Target,TARGET,275.24,USD,retail,false,purchase,USD,merch_7196
+t_00267,c_018,2025-05-29,Booking.com #990,BOOKING.COM,198.39,USD,travel,false,purchase,USD,merch_8428
+t_00268,c_002,2025-10-08,Stripe Payment #169,STRIPE PAYMENT,85.17,USD,services,false,purchase,USD,merch_3089
+t_00269,c_008,2025-08-12,Stripe Payment,STRIPE PAYMENT,423.74,USD,services,false,purchase,USD,merch_3089
+t_00270,c_018,2025-08-30,McDonald's,MCDONALD'S,51.08,USD,fast_food,false,purchase,USD,merch_8353
+t_00271,c_006,2025-06-10,Booking.com #675,BOOKING.COM,768.15,USD,travel,false,purchase,USD,merch_8428
+t_00272,c_011,2025-06-17,Walmart,WALMART,21.07,USD,retail,true,purchase,USD,merch_6154
+t_00273,c_019,2025-09-02,Steam #586,STEAM,25.58,USD,digital,false,purchase,USD,merch_3309
+t_00274,c_016,2025-06-01,Etsy #980,ETSY,372.98,USD,online_retail,false,purchase,USD,merch_4358
+t_00275,c_013,2025-08-24,Hotels.com #62,HOTELS.COM,231.79,USD,travel,false,purchase,USD,merch_6972
+t_00276,c_015,2025-09-17,Safeway,SAFEWAY,131.91,USD,groceries,false,purchase,USD,merch_5547
+t_00277,c_012,2025-07-29,McDonald's,MCDONALD'S,43.62,USD,fast_food,false,purchase,USD,merch_8353
+t_00278,c_008,2025-07-12,Chevron #254,CHEVRON,31.27,USD,fuel,false,purchase,USD,merch_7341
+t_00279,c_013,2025-06-04,Verizon Wireless #887,VERIZON WIRELESS,451.64,USD,utilities,false,purchase,USD,merch_2466
+t_00280,c_019,2025-08-20,Delta Air Lines,DELTA AIR LINES,623.01,USD,travel,false,purchase,USD,merch_1192
+t_00281,c_016,2025-08-22,DoorDash #968,DOORDASH,34.49,USD,food_delivery,false,purchase,USD,merch_4268
+t_00282,c_008,2025-09-14,Booking.com,BOOKING.COM,108.12,USD,travel,false,purchase,USD,merch_8428
+t_00283,c_016,2025-08-27,Etsy #111,ETSY,525.65,USD,online_retail,false,purchase,USD,merch_4358
+t_00284,c_012,2025-07-28,Home Depot #53,HOME DEPOT,690.78,USD,home_improvement,false,purchase,USD,merch_6699
+t_00285,c_018,2025-08-27,Target,TARGET,185.64,USD,retail,false,purchase,USD,merch_7196
+t_00286,c_020,2025-05-18,Google Play #999,GOOGLE PLAY,6.70,USD,digital,false,purchase,USD,merch_7969
+t_00287,c_011,2025-06-19,Home Depot,HOME DEPOT,250.88,USD,home_improvement,false,purchase,USD,merch_6699
+t_00288,c_017,2025-10-29,Walmart #731,WALMART,139.89,USD,retail,false,purchase,USD,merch_6154
+t_00289,c_015,2025-10-01,Expedia,EXPEDIA,210.75,USD,travel,false,purchase,USD,merch_2761
+t_00290,c_011,2025-09-28,AT&T Wireless,AT&T WIRELESS,370.96,USD,utilities,false,purchase,USD,merch_5789
+t_00291,c_011,2025-07-02,Grubhub,GRUBHUB,58.16,USD,food_delivery,false,purchase,USD,merch_6470
+t_00292,c_001,2025-08-06,Safeway,SAFEWAY,392.16,USD,groceries,false,purchase,USD,merch_5547
+t_00293,c_001,2025-06-09,Netflix Gift #672,NETFLIX GIFT,29.99,USD,subscriptions,false,subscription,USD,merch_9637
+t_00294,c_002,2025-06-12,Netflix Gift #645,NETFLIX GIFT,29.99,USD,subscriptions,false,subscription,USD,merch_9637
+t_00295,c_013,2025-10-02,Best Buy #971,BEST BUY,845.12,USD,electronics,false,purchase,USD,merch_0621
+t_00296,c_015,2025-08-20,Verizon Wireless #708,VERIZON WIRELESS,105.93,USD,utilities,false,purchase,USD,merch_2466
+t_00297,c_020,2025-07-11,Amazon.com,AMAZON.COM,629.64,USD,online_retail,false,purchase,USD,merch_3850
+t_00298,c_016,2025-06-27,Costco Gas,COSTCO GAS,33.85,USD,fuel,false,purchase,USD,merch_0980
+t_00299,c_011,2025-06-22,Sephora,SEPHORA,434.49,USD,personal_care,false,purchase,USD,merch_4100
+t_00300,c_009,2025-06-05,Netflix Gift #253,NETFLIX GIFT,15.49,USD,subscriptions,false,subscription,USD,merch_9637
+t_00301,c_008,2025-08-24,Spotify,SPOTIFY,19.99,USD,subscriptions,false,subscription,USD,merch_4481
+t_00302,c_012,2025-06-18,Netflix #588,NETFLIX,29.99,USD,subscriptions,false,subscription,USD,merch_9684
+t_00303,c_013,2025-08-12,Burger King #295,BURGER KING,76.65,USD,fast_food,false,purchase,USD,merch_3290
+t_00304,c_015,2025-05-25,Apple Store,APPLE STORE,268.57,USD,electronics,false,purchase,USD,merch_3164
+t_00305,c_009,2025-06-18,Netflix #631,NETFLIX,29.99,USD,subscriptions,false,subscription,USD,merch_9684
+t_00306,c_002,2025-05-21,Stripe Payment #239,STRIPE PAYMENT,30.98,USD,services,false,purchase,USD,merch_3089
+t_00307,c_016,2025-10-14,McDonald's #564,MCDONALD'S,78.34,USD,fast_food,false,purchase,USD,merch_8353
+t_00308,c_016,2025-07-09,Steam #988,STEAM,17.95,USD,digital,false,purchase,USD,merch_3309
+t_00309,c_002,2025-10-17,Steam,STEAM,32.57,USD,digital,false,purchase,USD,merch_3309
+t_00310,c_002,2025-09-25,Verizon Wireless,VERIZON WIRELESS,92.02,USD,utilities,false,purchase,USD,merch_2466
+t_00311,c_013,2025-07-05,Lyft,LYFT,77.16,USD,ride_share,false,purchase,USD,merch_3632
+t_00312,c_002,2025-11-06,Hulu,HULU,9.99,USD,subscriptions,false,subscription,USD,merch_9712
+t_00313,c_011,2025-08-28,Hotels.com,HOTELS.COM,674.80,USD,travel,false,purchase,USD,merch_6972
+t_00314,c_005,2025-07-02,Hotels.com #829,HOTELS.COM,179.54,USD,travel,false,purchase,USD,merch_6972
+t_00315,c_015,2025-05-27,Apple Store,APPLE STORE,31.69,USD,electronics,false,purchase,USD,merch_3164
+t_00316,c_010,2025-06-16,Delta Air Lines #877,DELTA AIR LINES,784.53,USD,travel,false,purchase,USD,merch_1192
+t_00317,c_014,2025-06-30,Trader Joe's #686,TRADER JOE'S,47.20,USD,groceries,false,purchase,USD,merch_3050
+t_00318,c_016,2025-08-18,Best Buy #393,BEST BUY,294.09,USD,electronics,false,purchase,USD,merch_0621
+t_00319,c_011,2025-08-23,Booking.com,BOOKING.COM,63.15,USD,travel,false,purchase,USD,merch_8428
+t_00320,c_008,2025-10-24,Costco Photo #315,COSTCO PHOTO,72.29,USD,retail,false,purchase,USD,merch_6856
+t_00321,c_010,2025-05-16,Chevron,CHEVRON,95.25,USD,fuel,false,purchase,USD,merch_7341
+t_00322,c_008,2025-09-13,McDonald's,MCDONALD'S,39.12,USD,fast_food,false,purchase,USD,merch_8353
+t_00323,c_012,2025-07-25,Nike,NIKE,305.37,USD,retail,false,purchase,USD,merch_2678
+t_00324,c_007,2025-09-06,Expedia,EXPEDIA,144.15,USD,travel,false,purchase,USD,merch_2761
+t_00325,c_012,2025-10-20,Adidas #849,ADIDAS,223.58,USD,retail,false,purchase,USD,merch_7024
+t_00326,c_019,2025-06-24,Burger King #875,BURGER KING,44.03,USD,fast_food,false,purchase,USD,merch_3290
+t_00327,c_007,2025-06-12,DoorDash #523,DOORDASH,38.41,USD,food_delivery,false,purchase,USD,merch_4268
+t_00328,c_005,2025-06-30,Verizon Wireless,VERIZON WIRELESS,33.58,USD,utilities,false,purchase,USD,merch_2466
+t_00329,c_010,2025-11-03,AT&T Wireless #4,AT&T WIRELESS,374.17,USD,utilities,false,purchase,USD,merch_5789
+t_00330,c_002,2025-07-23,Sephora,SEPHORA,272.88,USD,personal_care,false,purchase,USD,merch_4100
+t_00331,c_003,2025-07-11,Walmart #185,WALMART,309.90,USD,retail,false,purchase,USD,merch_6154
+t_00332,c_014,2025-08-05,Costco Gas,COSTCO GAS,93.37,USD,fuel,false,purchase,USD,merch_0980
+t_00333,c_003,2025-05-18,Costco Photo,COSTCO PHOTO,61.87,USD,retail,false,purchase,USD,merch_6856
+t_00334,c_004,2025-09-24,Etsy,ETSY,165.91,USD,online_retail,false,purchase,USD,merch_4358
+t_00335,c_001,2025-11-03,Hulu,HULU,29.99,USD,subscriptions,false,subscription,USD,merch_9712
+t_00336,c_013,2025-09-11,Best Buy,BEST BUY,198.82,USD,electronics,false,purchase,USD,merch_0621
+t_00337,c_004,2025-10-31,Costco Photo,COSTCO PHOTO,308.76,USD,retail,false,purchase,USD,merch_6856
+t_00338,c_001,2025-09-08,United Airlines #609,UNITED AIRLINES,88.61,USD,travel,false,purchase,USD,merch_2270
+t_00339,c_002,2025-09-07,Walmart,WALMART,101.39,USD,retail,false,purchase,USD,merch_6154
+t_00340,c_002,2025-10-04,Grubhub,GRUBHUB,22.56,USD,food_delivery,false,purchase,USD,merch_6470
+t_00341,c_019,2025-08-19,Adidas,ADIDAS,272.29,USD,retail,false,purchase,USD,merch_7024
+t_00342,c_010,2025-10-03,Costco Photo,COSTCO PHOTO,171.29,USD,retail,false,purchase,USD,merch_6856
+t_00343,c_018,2025-06-10,Lyft,LYFT,37.04,USD,ride_share,false,purchase,USD,merch_3632
+t_00344,c_012,2025-05-28,Costco Photo,COSTCO PHOTO,214.54,USD,retail,false,purchase,USD,merch_6856
+t_00345,c_014,2025-10-01,Hulu,HULU,29.99,USD,subscriptions,false,subscription,USD,merch_9712
+t_00346,c_008,2025-08-24,Burger King,BURGER KING,73.61,USD,fast_food,false,purchase,USD,merch_3290
+t_00347,c_014,2025-06-19,Stripe Payment #249,STRIPE PAYMENT,131.22,USD,services,false,purchase,USD,merch_3089
+t_00348,c_003,2025-07-16,Home Depot #742,HOME DEPOT,997.85,USD,home_improvement,false,purchase,USD,merch_6699
+t_00349,c_013,2025-05-20,Expedia,EXPEDIA,1054.66,USD,travel,false,purchase,USD,merch_2761
+t_00350,c_019,2025-05-21,Nike #214,NIKE,349.09,USD,retail,false,purchase,USD,merch_2678
+t_00351,c_001,2025-09-15,Delta Air Lines,DELTA AIR LINES,184.91,USD,travel,false,purchase,USD,merch_1192
+t_00352,c_016,2025-09-07,Expedia,EXPEDIA,506.13,USD,travel,false,purchase,USD,merch_2761
+t_00353,c_011,2025-08-28,Costco Gas,COSTCO GAS,71.90,USD,fuel,false,purchase,USD,merch_0980
+t_00354,c_012,2025-06-30,DoorDash,DOORDASH,65.21,USD,food_delivery,false,purchase,USD,merch_4268
+t_00355,c_011,2025-09-17,Home Depot,HOME DEPOT,69.17,USD,home_improvement,false,purchase,USD,merch_6699
+t_00356,c_005,2025-11-04,Apple Store,APPLE STORE,707.08,USD,electronics,false,purchase,USD,merch_3164
+t_00357,c_010,2025-09-30,Delta Air Lines,DELTA AIR LINES,486.82,USD,travel,false,purchase,USD,merch_1192
+t_00358,c_016,2025-06-21,Steam,STEAM,20.92,USD,digital,false,purchase,USD,merch_3309
+t_00359,c_016,2025-05-28,DoorDash,DOORDASH,59.96,USD,food_delivery,false,purchase,USD,merch_4268
+t_00360,c_005,2025-06-22,DoorDash #911,DOORDASH,45.66,USD,food_delivery,false,purchase,USD,merch_4268
+t_00361,c_002,2025-06-27,Walmart,WALMART,38.99,USD,retail,false,purchase,USD,merch_6154
+t_00362,c_002,2025-11-07,Verizon Wireless #646,VERIZON WIRELESS,119.56,USD,utilities,false,purchase,USD,merch_2466
+t_00363,c_001,2025-09-14,Grubhub,GRUBHUB,9.53,USD,food_delivery,false,purchase,USD,merch_6470
+t_00364,c_020,2025-07-08,Costco Photo,COSTCO PHOTO,12.58,USD,retail,false,purchase,USD,merch_6856
+t_00365,c_001,2025-11-04,Stripe Payment,STRIPE PAYMENT,270.19,USD,services,false,purchase,USD,merch_3089
+t_00366,c_017,2025-05-14,T-Mobile,T-MOBILE,455.34,USD,utilities,false,purchase,USD,merch_3547
+t_00367,c_004,2025-06-27,Burger King #635,BURGER KING,44.48,USD,fast_food,false,purchase,USD,merch_3290
+t_00368,c_009,2025-07-30,Costco Wholesale,COSTCO WHOLESALE,168.35,USD,groceries,false,purchase,USD,merch_1368
+t_00369,c_008,2025-08-24,Costco Wholesale,COSTCO WHOLESALE,344.71,USD,groceries,false,purchase,USD,merch_1368
+t_00370,c_003,2025-07-28,Costco Gas,COSTCO GAS,58.08,USD,fuel,false,purchase,USD,merch_0980
+t_00371,c_006,2025-10-18,DoorDash,DOORDASH,53.37,USD,food_delivery,false,purchase,USD,merch_4268
+t_00372,c_004,2025-06-26,Walmart #923,WALMART,348.57,USD,retail,false,purchase,USD,merch_6154
+t_00373,c_016,2025-08-31,Walmart,WALMART,276.93,USD,retail,false,purchase,USD,merch_6154
+t_00374,c_018,2025-06-17,Costco Photo #952,COSTCO PHOTO,341.67,USD,retail,true,purchase,USD,merch_6856
+t_00375,c_007,2025-06-11,Burger King,BURGER KING,58.45,USD,fast_food,false,purchase,USD,merch_3290
+t_00376,c_003,2025-08-24,Uber,UBER,47.50,USD,ride_share,false,purchase,USD,merch_9196
+t_00377,c_018,2025-08-16,Costco Gas,COSTCO GAS,31.20,USD,fuel,false,purchase,USD,merch_0980
+t_00378,c_003,2025-07-03,Sephora #448,SEPHORA,119.91,USD,personal_care,false,purchase,USD,merch_4100
+t_00379,c_020,2025-06-04,Expedia,EXPEDIA,939.59,USD,travel,true,purchase,USD,merch_2761
+t_00380,c_009,2025-07-16,DoorDash #567,DOORDASH,75.59,USD,food_delivery,false,purchase,USD,merch_4268
+t_00381,c_019,2025-05-23,Costco Gas #634,COSTCO GAS,43.63,USD,fuel,false,purchase,USD,merch_0980
+t_00382,c_003,2025-10-18,Netflix #729,NETFLIX,12.99,USD,subscriptions,false,subscription,USD,merch_9684
+t_00383,c_011,2025-08-08,Shell Oil Station #966,SHELL OIL STATION,44.66,USD,fuel,false,purchase,USD,merch_8266
+t_00384,c_009,2025-10-13,McDonald's #442,MCDONALD'S,38.66,USD,fast_food,false,purchase,USD,merch_8353
+t_00385,c_014,2025-10-13,Whole Foods Market #568,WHOLE FOODS MARKET,46.30,USD,groceries,false,purchase,USD,merch_7275
+t_00386,c_011,2025-08-02,Starbucks #398,STARBUCKS,16.25,USD,coffee,false,purchase,USD,merch_8600
+t_00387,c_018,2025-09-07,Adidas,ADIDAS,277.27,USD,retail,false,purchase,USD,merch_7024
+t_00388,c_009,2025-08-23,Netflix,NETFLIX,9.99,USD,subscriptions,false,subscription,USD,merch_9684
+t_00389,c_009,2025-07-24,Hulu,HULU,9.99,USD,subscriptions,false,subscription,USD,merch_9712
+t_00390,c_008,2025-06-01,DoorDash,DOORDASH,19.67,USD,food_delivery,false,purchase,USD,merch_4268
+t_00391,c_010,2025-11-07,AT&T Wireless,AT&T WIRELESS,312.00,USD,utilities,false,purchase,USD,merch_5789
+t_00392,c_011,2025-07-19,Safeway,SAFEWAY,331.18,USD,groceries,false,purchase,USD,merch_5547
+t_00393,c_020,2025-10-05,Hulu,HULU,12.99,USD,subscriptions,false,subscription,USD,merch_9712
+t_00394,c_006,2025-07-30,Trader Joe's #712,TRADER JOE'S,256.83,USD,groceries,false,purchase,USD,merch_3050
+t_00395,c_008,2025-08-17,Costco Gas #805,COSTCO GAS,51.43,USD,fuel,false,purchase,USD,merch_0980
+t_00396,c_019,2025-09-18,Booking.com,BOOKING.COM,256.92,USD,travel,false,purchase,USD,merch_8428
+t_00397,c_001,2025-07-13,United Airlines,UNITED AIRLINES,385.03,USD,travel,false,purchase,USD,merch_2270
+t_00398,c_014,2025-05-20,DoorDash #311,DOORDASH,23.15,USD,food_delivery,false,purchase,USD,merch_4268
+t_00399,c_014,2025-08-04,Target,TARGET,243.19,USD,retail,false,purchase,USD,merch_7196
+t_00400,c_018,2025-07-02,Verizon Wireless,VERIZON WIRELESS,396.41,USD,utilities,false,purchase,USD,merch_2466
+t_00401,c_018,2025-06-09,Microsoft Xbox,MICROSOFT XBOX,7.45,USD,digital,false,purchase,USD,merch_4990
+t_00402,c_012,2025-09-27,Steam,STEAM,34.23,USD,digital,false,purchase,USD,merch_3309
+t_00403,c_013,2025-08-16,T-Mobile #101,T-MOBILE,133.08,USD,utilities,false,purchase,USD,merch_3547
+t_00404,c_017,2025-06-19,Booking.com,BOOKING.COM,304.19,USD,travel,false,purchase,USD,merch_8428
+t_00405,c_015,2025-05-19,Booking.com,BOOKING.COM,223.36,USD,travel,false,purchase,USD,merch_8428
+t_00406,c_016,2025-10-13,Spotify,SPOTIFY,9.99,USD,subscriptions,false,subscription,USD,merch_4481
+t_00407,c_005,2025-08-11,Hulu,HULU,12.99,USD,subscriptions,false,subscription,USD,merch_9712
+t_00408,c_012,2025-07-10,Shell Oil Station,SHELL OIL STATION,75.74,USD,fuel,false,purchase,USD,merch_8266
+t_00409,c_010,2025-10-28,Chevron #352,CHEVRON,71.84,USD,fuel,false,purchase,USD,merch_7341
+t_00410,c_006,2025-09-07,Stripe Payment #164,STRIPE PAYMENT,168.84,USD,services,false,purchase,USD,merch_3089
+t_00411,c_015,2025-09-10,AT&T Wireless,AT&T WIRELESS,97.26,USD,utilities,false,purchase,USD,merch_5789
+t_00412,c_013,2025-11-01,Google Play,GOOGLE PLAY,27.52,USD,digital,false,purchase,USD,merch_7969
+t_00413,c_001,2025-05-12,United Airlines #771,UNITED AIRLINES,859.32,USD,travel,false,purchase,USD,merch_2270
+t_00414,c_019,2025-10-13,Etsy #334,ETSY,248.53,USD,online_retail,false,purchase,USD,merch_4358
+t_00415,c_016,2025-06-26,Microsoft Xbox,MICROSOFT XBOX,23.93,USD,digital,false,purchase,USD,merch_4990
+t_00416,c_004,2025-08-11,Sephora,SEPHORA,310.59,USD,personal_care,false,purchase,USD,merch_4100
+t_00417,c_010,2025-06-04,Booking.com #138,BOOKING.COM,410.16,USD,travel,false,purchase,USD,merch_8428
+t_00418,c_004,2025-09-23,Home Depot,HOME DEPOT,620.33,USD,home_improvement,false,purchase,USD,merch_6699
+t_00419,c_005,2025-06-14,Costco Gas,COSTCO GAS,58.93,USD,fuel,false,purchase,USD,merch_0980
+t_00420,c_006,2025-06-19,Uber,UBER,15.52,USD,ride_share,false,purchase,USD,merch_9196
+t_00421,c_015,2025-06-03,Amazon.com,AMAZON.COM,1142.93,USD,online_retail,false,purchase,USD,merch_3850
+t_00422,c_007,2025-08-02,Nike,NIKE,203.04,USD,retail,false,purchase,USD,merch_2678
+t_00423,c_014,2025-07-18,DoorDash #579,DOORDASH,7.31,USD,food_delivery,false,purchase,USD,merch_4268
+t_00424,c_010,2025-10-31,Netflix #296,NETFLIX,12.99,USD,subscriptions,false,subscription,USD,merch_9684
+t_00425,c_019,2025-07-05,Nike,NIKE,233.36,USD,retail,false,purchase,USD,merch_2678
+t_00426,c_018,2025-08-07,Etsy,ETSY,64.31,USD,online_retail,false,purchase,USD,merch_4358
+t_00427,c_018,2025-09-14,T-Mobile #850,T-MOBILE,328.57,USD,utilities,false,purchase,USD,merch_3547
+t_00428,c_002,2025-07-16,Apple Store,APPLE STORE,982.82,USD,electronics,false,purchase,USD,merch_3164
+t_00429,c_004,2025-09-09,United Airlines,UNITED AIRLINES,726.11,USD,travel,false,purchase,USD,merch_2270
+t_00430,c_020,2025-05-31,T-Mobile #143,T-MOBILE,393.50,USD,utilities,false,purchase,USD,merch_3547
+t_00431,c_002,2025-06-16,Sephora,SEPHORA,300.44,USD,personal_care,false,purchase,USD,merch_4100
+t_00432,c_010,2025-08-26,Adidas #879,ADIDAS,210.62,USD,retail,false,purchase,USD,merch_7024
+t_00433,c_004,2025-10-05,Verizon Wireless,VERIZON WIRELESS,496.28,USD,utilities,false,purchase,USD,merch_2466
+t_00434,c_005,2025-05-13,McDonald's #729,MCDONALD'S,29.16,USD,fast_food,false,purchase,USD,merch_8353
+t_00435,c_013,2025-07-06,Burger King,BURGER KING,25.15,USD,fast_food,false,purchase,USD,merch_3290
+t_00436,c_015,2025-10-20,Microsoft Xbox,MICROSOFT XBOX,46.36,USD,digital,false,purchase,USD,merch_4990
+t_00437,c_009,2025-05-15,Home Depot,HOME DEPOT,593.33,USD,home_improvement,false,purchase,USD,merch_6699
+t_00438,c_003,2025-07-14,Microsoft Xbox,MICROSOFT XBOX,22.14,USD,digital,false,purchase,USD,merch_4990
+t_00439,c_018,2025-07-30,United Airlines,UNITED AIRLINES,998.57,USD,travel,false,purchase,USD,merch_2270
+t_00440,c_011,2025-08-28,Safeway,SAFEWAY,60.93,USD,groceries,false,purchase,USD,merch_5547
+t_00441,c_011,2025-05-18,Amazon.com #642,AMAZON.COM,943.91,USD,online_retail,false,purchase,USD,merch_3850
+t_00442,c_004,2025-09-29,Airbnb,AIRBNB,1190.61,USD,travel,false,purchase,USD,merch_4884
+t_00443,c_005,2025-05-26,Hulu #956,HULU,15.49,USD,subscriptions,false,subscription,USD,merch_9712
+t_00444,c_012,2025-09-05,Costco Wholesale,COSTCO WHOLESALE,362.48,USD,groceries,false,purchase,USD,merch_1368
+t_00445,c_013,2025-06-01,Hulu,HULU,12.99,USD,subscriptions,false,subscription,USD,merch_9712
+t_00446,c_003,2025-05-12,Shell Oil Station #489,SHELL OIL STATION,26.24,USD,fuel,false,purchase,USD,merch_8266
+t_00447,c_017,2025-05-18,Airbnb #713,AIRBNB,445.11,USD,travel,false,purchase,USD,merch_4884
+t_00448,c_014,2025-05-15,McDonald's,MCDONALD'S,22.17,USD,fast_food,false,purchase,USD,merch_8353
+t_00449,c_004,2025-10-13,Trader Joe's,TRADER JOE'S,126.71,USD,groceries,false,purchase,USD,merch_3050
+t_00450,c_005,2025-05-28,Burger King #577,BURGER KING,5.64,USD,fast_food,false,purchase,USD,merch_3290
+t_00451,c_015,2025-08-11,United Airlines,UNITED AIRLINES,224.08,USD,travel,false,purchase,USD,merch_2270
+t_00452,c_015,2025-09-14,Costco Wholesale,COSTCO WHOLESALE,64.61,USD,groceries,false,purchase,USD,merch_1368
+t_00453,c_013,2025-08-11,T-Mobile,T-MOBILE,74.22,USD,utilities,false,purchase,USD,merch_3547
+t_00454,c_003,2025-09-06,Nike,NIKE,291.26,USD,retail,false,purchase,USD,merch_2678
+t_00455,c_001,2025-05-24,Hulu #622,HULU,29.99,USD,subscriptions,false,subscription,USD,merch_9712
+t_00456,c_013,2025-08-25,Steam #920,STEAM,47.83,USD,digital,false,purchase,USD,merch_3309
+t_00457,c_013,2025-10-11,Best Buy,BEST BUY,718.81,USD,electronics,false,purchase,USD,merch_0621
+t_00458,c_001,2025-08-08,Trader Joe's #882,TRADER JOE'S,337.20,USD,groceries,false,purchase,USD,merch_3050
+t_00459,c_018,2025-05-18,Lyft,LYFT,76.58,USD,ride_share,false,purchase,USD,merch_3632
+t_00460,c_001,2025-06-11,Target #221,TARGET,25.53,USD,retail,false,purchase,USD,merch_7196
+t_00461,c_013,2025-07-02,Spotify,SPOTIFY,29.99,USD,subscriptions,false,subscription,USD,merch_4481
+t_00462,c_014,2025-05-13,AT&T Wireless #550,AT&T WIRELESS,271.14,USD,utilities,false,purchase,USD,merch_5789
+t_00463,c_003,2025-08-21,Costco Wholesale,COSTCO WHOLESALE,89.25,USD,groceries,false,purchase,USD,merch_1368
+t_00464,c_018,2025-08-17,AT&T Wireless,AT&T WIRELESS,382.80,USD,utilities,false,purchase,USD,merch_5789
+t_00465,c_003,2025-08-21,T-Mobile,T-MOBILE,424.00,USD,utilities,false,purchase,USD,merch_3547
+t_00466,c_003,2025-07-20,Chevron,CHEVRON,68.71,USD,fuel,false,purchase,USD,merch_7341
+t_00467,c_006,2025-10-09,Starbucks,STARBUCKS,14.93,USD,coffee,false,purchase,USD,merch_8600
+t_00468,c_012,2025-06-28,Stripe Payment,STRIPE PAYMENT,361.78,USD,services,false,purchase,USD,merch_3089
+t_00469,c_005,2025-09-01,Chevron,CHEVRON,22.35,USD,fuel,false,purchase,USD,merch_7341
+t_00470,c_009,2025-06-27,Target #999,TARGET,234.89,USD,retail,false,purchase,USD,merch_7196
+t_00471,c_015,2025-07-01,Home Depot #880,HOME DEPOT,686.76,USD,home_improvement,false,purchase,USD,merch_6699
+t_00472,c_009,2025-10-13,Adidas,ADIDAS,54.98,USD,retail,false,purchase,USD,merch_7024
+t_00473,c_001,2025-10-28,Starbucks #484,STARBUCKS,9.19,USD,coffee,false,purchase,USD,merch_8600
+t_00474,c_006,2025-10-30,Nike,NIKE,288.47,USD,retail,false,purchase,USD,merch_2678
+t_00475,c_008,2025-08-18,Best Buy,BEST BUY,868.54,USD,electronics,false,purchase,USD,merch_0621
+t_00476,c_003,2025-06-15,Home Depot #690,HOME DEPOT,1083.80,USD,home_improvement,false,purchase,USD,merch_6699
+t_00477,c_017,2025-10-28,AT&T Wireless #477,AT&T WIRELESS,433.69,USD,utilities,false,purchase,USD,merch_5789
+t_00478,c_010,2025-08-17,Costco Wholesale,COSTCO WHOLESALE,13.11,USD,groceries,false,purchase,USD,merch_1368
+t_00479,c_019,2025-08-23,Google Play #378,GOOGLE PLAY,35.91,USD,digital,false,purchase,USD,merch_7969
+t_00480,c_007,2025-06-22,Best Buy #955,BEST BUY,500.89,USD,electronics,false,purchase,USD,merch_0621
+t_00481,c_012,2025-05-30,Starbucks,STARBUCKS,3.02,USD,coffee,false,purchase,USD,merch_8600
+t_00482,c_010,2025-10-13,United Airlines,UNITED AIRLINES,323.89,USD,travel,false,purchase,USD,merch_2270
+t_00483,c_002,2025-10-03,Netflix #944,NETFLIX,12.99,USD,subscriptions,false,subscription,USD,merch_9684
+t_00484,c_017,2025-07-26,Home Depot,HOME DEPOT,901.26,USD,home_improvement,false,purchase,USD,merch_6699
+t_00485,c_017,2025-10-05,Microsoft Xbox,MICROSOFT XBOX,5.41,USD,digital,false,purchase,USD,merch_4990
+t_00486,c_014,2025-05-23,McDonald's #268,MCDONALD'S,68.82,USD,fast_food,false,purchase,USD,merch_8353
+t_00487,c_013,2025-05-13,Trader Joe's,TRADER JOE'S,116.06,USD,groceries,false,purchase,USD,merch_3050
+t_00488,c_007,2025-10-05,Booking.com #109,BOOKING.COM,239.03,USD,travel,false,purchase,USD,merch_8428
+t_00489,c_014,2025-10-09,Etsy,ETSY,927.85,USD,online_retail,false,purchase,USD,merch_4358
+t_00490,c_015,2025-09-02,Chevron #827,CHEVRON,74.88,USD,fuel,false,purchase,USD,merch_7341
+t_00491,c_020,2025-10-29,United Airlines,UNITED AIRLINES,426.96,USD,travel,false,purchase,USD,merch_2270
+t_00492,c_008,2025-08-09,AT&T Wireless,AT&T WIRELESS,340.21,USD,utilities,false,purchase,USD,merch_5789
+t_00493,c_006,2025-11-01,AT&T Wireless,AT&T WIRELESS,280.20,USD,utilities,false,purchase,USD,merch_5789
+t_00494,c_004,2025-07-13,Shell Oil Station,SHELL OIL STATION,31.18,USD,fuel,true,purchase,USD,merch_8266
+t_00495,c_008,2025-10-06,Delta Air Lines,DELTA AIR LINES,478.08,USD,travel,false,purchase,USD,merch_1192
+t_00496,c_003,2025-06-12,Booking.com #833,BOOKING.COM,136.24,USD,travel,false,purchase,USD,merch_8428
+t_00497,c_007,2025-05-27,Airbnb,AIRBNB,155.78,USD,travel,false,purchase,USD,merch_4884
+t_00498,c_011,2025-10-08,Walmart,WALMART,29.75,USD,retail,false,purchase,USD,merch_6154
+t_00499,c_014,2025-07-30,DoorDash #700,DOORDASH,37.00,USD,food_delivery,false,purchase,USD,merch_4268
+t_00500,c_006,2025-08-30,Netflix,NETFLIX,12.99,USD,subscriptions,true,subscription,USD,merch_9684
